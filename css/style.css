@@ -531,14 +531,16 @@ background-color: #404bbf;;
 
 .customers-soc-link:hover, .customers-soc-link:focus {
   border-color: #404bbf;
+  color: #404bbf;
 }
 
-.customers-soc-icon:hover, .customers-soc-icon:focus  {
-  fill: #404bbf;
+.customers-soc-link:hover, .customers-soc-link:focus .customers-soc-icon {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 
-.img {
+.imges {
   display: block;
 }
 
