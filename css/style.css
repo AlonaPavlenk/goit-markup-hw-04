@@ -222,7 +222,7 @@ body {
 .footer-container {
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 120px;
+  gap: 120px;
 }
 
 .footer-link {
@@ -255,17 +255,18 @@ body {
 }
 
 .footer-soc-conteiner {
+
 }
 
 .footer-name {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
+ margin-bottom: 16px;
 }
 
 .footer-list {
@@ -303,6 +304,8 @@ body {
 /* hero */
 
 .hero {
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--brand-color);
   text-align: center;
   align-items: center;
@@ -318,6 +321,7 @@ body {
   background-size: cover;
   justify-content: center;
   max-width: 1440px;
+ 
 }
 
 .hero-container {
