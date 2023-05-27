@@ -217,13 +217,12 @@ body {
 .footer-cotent {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-container {
   margin-top: 0;
   margin-bottom: 0;
-
+  margin-right: 120px 
 }
 
 .footer-link {
