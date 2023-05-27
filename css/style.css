@@ -338,6 +338,19 @@ body {
   margin-bottom: 8px;
 }
 
+.strategy-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+}
+.strategy-icon {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /* services */
 
 .services {
@@ -425,27 +438,31 @@ body {
   margin-bottom: 8px;
 }
 
-.team-soc-list  {
-display: flex;
-justify-content: center;
-gap: 24px;
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-soc-item {
-width: 40px;
-height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .team-soc-link {
-width: 100%;
-height: 100%;
-background-color: #4D5AE5;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #bf4079;
+}
 
 /* customers */
 
@@ -453,34 +470,57 @@ justify-content: center;
   text-align: center;
 }
 
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .customers-title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
   text-transform: capitalize;
   margin-top: 0;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .customers-soc-list {
-
-display: flex;
-justify-content: center;
-gap: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .customers-soc-item {
-  min-width: 41px;
-  min-height: 46px;
+  width: calc((100%-120px) / 6);
+  height: 88px;
 }
 
 .customers-soc-icon {
+  width: 104px;
+  height: 56px;
+  fill: #8e8f99;
+}
+
+.customers-soc-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers-soc-link:hover {
+  border-color: #bf4079;
+}
+
+.customers-soc-link:hover .customers-soc-icon {
+ fill: #bf4079;
 }
 
 .img {
