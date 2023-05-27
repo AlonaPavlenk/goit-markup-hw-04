@@ -217,12 +217,13 @@ body {
 .footer-cotent {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .footer-container {
   margin-top: 0;
   margin-bottom: 0;
-  gap: 120px;
+
 }
 
 .footer-link {
@@ -266,6 +267,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-top: 0;
  margin-bottom: 16px;
 }
 
@@ -277,7 +279,6 @@ body {
 .footer-item {
   width: 40px;
   height: 40px;
-  display: flex;
 }
 
 .footer-soc-link {
