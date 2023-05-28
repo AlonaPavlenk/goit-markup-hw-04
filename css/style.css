@@ -151,7 +151,7 @@ body {
 
 .interface-button:hover,
 .interface-button:focus {
-  color: var(--brand-color);
+  color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
   border: 1px solid transparent;
@@ -367,7 +367,6 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #2e2f42;
   background-color: #404bbf;
   cursor: pointer;
 }
